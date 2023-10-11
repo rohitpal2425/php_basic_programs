@@ -1,0 +1,24 @@
+<?php
+$x=1000;
+$y=120;
+$z=120;
+$a=120;
+$add=$x+$y;
+echo"The Addition of $x and $y is: $add";
+echo "<br>";
+$subtraction=$x-$y;
+echo"The subtraction of $x and $y is: $subtraction";
+echo "<br>";
+$multiplication=$x*$y;
+echo"The multiplication of $x and $y is: $multiplication";
+echo "<br>";
+$division=$x/$y;
+echo"The division of $x and $y is: $division";
+echo "<br>";
+echo ++$x;
+echo "<br>";
+echo $y++;
+echo "<br>";
+echo --$z;
+echo "<br>";
+echo $a--;
